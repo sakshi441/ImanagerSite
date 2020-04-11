@@ -1,0 +1,33 @@
+/*Instance Stylesheet*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    font-family: serif;
+    background-image: url("images/image-from-rawpixel-id-1201197-jpeg.jpg");
+}
+
+h1,h2,h3{
+    font-family: serif,Helvetica,Arial;
+}
+
+header{
+    text-align: center;
+    color: #1a71b8;
+    padding: 10px;
+}
+
+#container{
+    width: 760px;
+    margin:0 auto;
+           
+}
+
+article{
+    padding: 25px;
+    margin: 25px 0;
+}
