@@ -8,7 +8,7 @@
 body{
     font-size: 18px;
     font-family: serif;
-    background-image: url("images/image-from-rawpixel-id-1201197-jpeg.jpg");
+    background-image: url("images/image-from-rawpixel-id-597069-jpeg.jpg");
 }
 
 h1,h2,h3{
@@ -27,7 +27,43 @@ header{
            
 }
 
+hr{
+    border: 3px solid #1a71b8;
+    border-radius: 2.5px;
+}
 article{
     padding: 25px;
     margin: 25px 0;
+    background-color: #EFE0DA;
+}
+
+article p{
+    margin: 1em 0 0;
+    
+}
+
+section.post-head small{
+    display: block;
+    margin: 2px 0 1px 0 ;
+    padding: 2px;
+    border-bottom: solid 2px #add8e6;
+}
+
+section.post-body{
+    font-size: 16px;
+    margin: 2px 2px ;
+    padding: 0 0 6px 0;
+}
+
+section.post-foot{
+    font-size: 14px;
+    border-top: solid 2px #add8e6;
+    margin: 0 2px 0 0 ;
+    padding: 2px;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
 }
