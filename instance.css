@@ -8,7 +8,9 @@
 body{
     font-size: 18px;
     font-family: serif;
-    background-image: url("images/image-from-rawpixel-id-597069-jpeg.jpg");
+    background-image: url("images/image-from-rawpixel-id-1201197-jpeg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1,h2,h3{
@@ -17,6 +19,7 @@ h1,h2,h3{
 
 header{
     text-align: center;
+    background-color: #efe0da;
     color: #1a71b8;
     padding: 10px;
 }
@@ -31,6 +34,31 @@ hr{
     border: 3px solid #1a71b8;
     border-radius: 2.5px;
 }
+
+a{
+    text-decoration: none;
+}
+
+/* unvisited */
+a:link{
+    color: salmon;
+}
+
+/* visited */
+a:visited{
+    color: darkred;
+}
+
+/* hover */
+a:hover{
+    color: darkblue;
+}
+
+/* active */
+a:active{
+    color: darkslategrey;
+}
+
 article{
     padding: 25px;
     margin: 25px 0;
